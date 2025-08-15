@@ -1,6 +1,6 @@
 # Credit Score Classification Using ANN  
 
-## 📌 Overview  
+## Overview  
 This project develops a robust **Artificial Neural Network (ANN)** model to classify customers into three credit score categories — **Good**, **Standard**, and **Poor** — based on demographic, financial, and behavioral attributes.  
 A **Streamlit dashboard** enables interactive hyperparameter tuning and performance visualization, making it a practical tool for financial institutions to support risk assessment and lending decisions.  
 
@@ -9,7 +9,7 @@ A **Streamlit dashboard** enables interactive hyperparameter tuning and performa
 
 ---
 
-## 🚀 Features  
+## Features  
 - Comprehensive **data preprocessing**: Missing value handling, encoding, and scaling.  
 - **Feature engineering** for detailed loan type analysis.  
 - Class imbalance resolution using **SMOTE**.  
@@ -19,7 +19,7 @@ A **Streamlit dashboard** enables interactive hyperparameter tuning and performa
 
 ---
 
-## 📊 Dataset  
+## Dataset  
 - **Rows:** 100,000  
 - **Columns:** 28 (Demographic, financial, and credit history details)  
 - **Target Variable:** Credit_Score (`Good`, `Standard`, `Poor`)  
@@ -32,7 +32,7 @@ A **Streamlit dashboard** enables interactive hyperparameter tuning and performa
 
 ---
 
-## 🔍 Key Insights  
+## Key Insights  
 - Higher annual income and fewer delayed payments strongly correlate with **better credit scores**.  
 - **Loan type distribution** reveals patterns linked to creditworthiness.  
 - Multiple credit inquiries are associated with **higher financial risk**.  
@@ -40,7 +40,7 @@ A **Streamlit dashboard** enables interactive hyperparameter tuning and performa
 
 ---
 
-## 🛠️ Technologies Used  
+## Technologies Used  
 - **Python**  
 - **TensorFlow/Keras**  
 - **Pandas, NumPy**  
@@ -50,7 +50,7 @@ A **Streamlit dashboard** enables interactive hyperparameter tuning and performa
 
 ---
 
-## 📈 Model Performance & Business Applications  
+## Model Performance & Business Applications  
 - ANN-7 with SMOTE achieved the **best balance between accuracy and recall**.  
 - Predicts customer credit scores to support:  
   - **Loan approvals** with risk assessment  
@@ -60,7 +60,7 @@ A **Streamlit dashboard** enables interactive hyperparameter tuning and performa
 
 ---
 
-## 📌 Managerial Recommendations  
+## Managerial Recommendations  
 - Prioritize customers with high income and low payment delays.  
 - Closely monitor loan applicants with multiple recent credit inquiries.  
 - Adjust lending criteria for customers with “Standard” or “Poor” scores.  
